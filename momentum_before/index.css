@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    color: rgb(253, 253, 253);
+} 
+
+
+#toDoForm {
+}
+
+h1 {
+    color: rgb(253, 253, 253);
+    margin-top: 250px;
+    font-size: 90px;
+}
+
+.form,
+.greeting
+{
+    display: none;
+     text-shadow: -2px 0 #000,
+  0 2px #000,
+  2px 0 #000,
+  0 -2px #000;
+}
+
+.showing{
+    display: block;
+}
+
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    animation: fadein 0.5s;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.toDo{
+  font-size: x-large;  
+  text-shadow: -2px 0 #000,
+  0 2px #000,
+  2px 0 #000,
+  0 -2px #000;
+
+}
